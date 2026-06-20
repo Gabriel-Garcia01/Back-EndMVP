@@ -1,0 +1,91 @@
+.trailSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 20px 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.trailCard {
+  position: relative;
+  height: 340px;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+  border: 1px solid #8aff8a41;
+}
+
+.trailCard:hover {
+  transform: scale(1.02);
+}
+
+.trailCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.trailCard:hover img {
+  transform: scale(1.08);
+}
+
+.trailCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.92) 10%,
+    rgba(0, 0, 0, 0.45) 45%,
+    transparent 75%
+  );
+}
+
+.trailInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.trailName {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #8aff8a;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  flex-wrap: wrap;
+}
+
+.trailName span {
+  word-break: break-word;
+  flex: 1;
+}
+
+.trailDuration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.trailDifficulty {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.95rem;
+}
+
+.icon {
+  flex-shrink: 0;
+  font-size: 1.1rem;
+}

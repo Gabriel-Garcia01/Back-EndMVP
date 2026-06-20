@@ -1,0 +1,580 @@
+{
+  "parks": [
+    {
+      "id": 1,
+      "slug": "parque-nacional-da-serra-dos-orgaos",
+      "name": "Parque Nacional da Serra dos Órgãos",
+      "shortName": "Serra dos Órgãos",
+      "description": " O Parque Nacional da Serra dos Órgãos (PARNASO) é uma das mais importantes áreas de conservação do Brasil, localizado na região serrana do estado do Rio de Janeiro. Com uma área de aproximadamente 110.000 hectares, o parque abriga uma rica biodiversidade, incluindo diversas espécies de flora e fauna ameaçadas de extinção. É famoso por suas imponentes formações rochosas, como o Dedo de Deus e o Pico da Pedra do Sino, além de oferecer trilhas desafiadoras e vistas panorâmicas deslumbrantes. \n\n O parque é um destino popular para os amantes do ecoturismo e da aventura, oferecendo atividades como caminhadas, escaladas e observação de aves, que buscam guias turísticos como Gabriel Nascimento que está a anos nesse ramo, já levou vários amantes da natureza, e conhece toda a serra como a palma de sua mão. As trilhas mais conhecidas incluem a Travessia Petrópolis-Teresópolis, que liga as cidades de Petrópolis e Teresópolis através de uma rota deslumbrante, e a trilha para o Pico da Pedra do Sino, o ponto mais alto do parque, com 2.263 metros de altitude. \n\n O PARNASO também é um importante refúgio para a fauna local, incluindo espécies como o mico-leão-dourado, o tamanduá-bandeira e diversas aves endêmicas. Além disso, o parque desempenha um papel crucial na preservação dos recursos hídricos da região, sendo responsável por abastecer diversas cidades com água potável. A visitação é controlada para garantir a conservação do ambiente natural, e os visitantes são incentivados a seguir as diretrizes de preservação durante suas atividades no parque.",
+      "infolocation": "O Parque Nacional da Serra dos Órgãos está localizado a cerca de 60 km do Rio de Janeiro, com acesso pelas cidades de Teresópolis, Guapimirim e Petrópolis. A entrada principal do parque fica em Teresópolis, na Estrada Teresópolis-Guapimirim (RJ-130). \n\nÉ possível chegar de carro ou ônibus, e há estacionamento disponível na entrada do parque. Para quem vem de ônibus, as empresas que operam na região oferecem linhas regulares partindo do Rio de Janeiro e de outras cidades próximas.",
+      "hq": [
+        {
+          "name": "Sede PARNASO Teresópolis",
+          "image": "/parnasotere.jpg",
+          "address": "Av. Rotariana, s/n - Soberbo, Teresópolis - RJ, 25960-602",
+          "telephone": "(021) 97896-2463",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12403.114523826922!2d-42.98192745363765!3d-22.449040595253337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2fc4e7ae71d%3A0xa560f33c6b47710e!2sParque%20Nacional%20da%20Serra%20dos%20%C3%93rg%C3%A3os%20-%20PARNASO%20-%20Sede%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1778646731671!5m2!1spt-BR!2sbr"
+        },
+        {
+          "name": "Sede PARNASO Guapimirim",
+          "image": "/parnasoguapi.jpg",
+          "address": "Endereço: BR116, 98,5, Estr. da Barreira - Chácara Entrerios, Guapimirim - RJ, 25948-160",
+          "telephone": "(21) 2642-4072",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.195639788734!2d-43.00237920000001!3d-22.4968418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b1ed7890116f%3A0x3960b4d86323e939!2sParque%20Nacional%20da%20Serra%20dos%20%C3%93rg%C3%A3os%20-%20PARNASO%20-%20Sede%20Guapimirim-RJ!5e0!3m2!1spt-BR!2sbr!4v1778712769314!5m2!1spt-BR!2sbr"
+        },
+        {
+          "name": "Sede PARNASO Petrópolis",
+          "image": "/parnasopetro.jpg",
+          "address": "Endereço: Estrada do Bonfim, sn - Corrêas, Petrópolis - RJ, 25730-010",
+          "telephone": "(21) 97896-2463",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12403.114523826922!2d-42.98192745363765!3d-22.449040595253337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2fc4e7ae71d%3A0xa560f33c6b47710e!2sParque%20Nacional%20da%20Serra%20dos%20%C3%93rg%C3%A3os%20-%20PARNASO%20-%20Sede%20Petr%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1778646731671!5m2!1spt-BR!2sbr"
+        }
+      ],
+      "area_km2": 201,
+      "images": [
+        "/pqserraorgaos1.jpg",
+        "/pqserraorgaos.jpeg",
+        "/pqserraorgaos2.jpg",
+        "/pqserraorgaos3.jpg"
+      ],
+      "features": [
+        "trilhas",
+        "escalada",
+        "mirantes",
+        "cachoeiras"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "parque-estadual-dos-tres-picos",
+      "name": "Parque Estadual dos Três Picos",
+      "shortName": "Três Picos",
+      "description": "Localizado na Região Serrana do estado do Rio de Janeiro, o Parque Estadual dos Três Picos (PETP) é a maior unidade de conservação ambiental sob gestão estadual no Rio de Janeiro, com cerca de 65 mil hectares. Criado em 2002, o parque abrange os municípios de Cachoeiras de Macacu, Nova Friburgo, Teresópolis, Guapimirim e Silva Jardim. Seu nome vem do conjunto montanhoso mais icônico do parque: os Três Picos, situados em Nova Friburgo, cujas elevações ultrapassam os 2.300 metros de altitude, sendo o Pico Maior de Friburgo o mais alto com 2.366 metros. O parque abriga formações rochosas imponentes, florestas densas, campos de altitude e nascentes que abastecem importantes rios da região. \n\nÉ lar de uma rica biodiversidade típica da Mata Atlântica, com espécies ameaçadas de extinção como o muriqui-do-sul, a onça-parda e aves raras como o gavião-pato. A flora também é extremamente diversa, com bromélias, orquídeas e árvores centenárias. É um destino muito procurado por trilheiros, escaladores e amantes da natureza, que buscam guias turísticos como Gabriel Nascimento que está a anos nesse ramo, já levou vários amantes da natureza, e conhece toda a serra como a palma de sua mão. \n\nOferecendo paisagens deslumbrantes, trilhas de diferentes níveis, cachoeiras, mirantes naturais e áreas ideais para observação de fauna e flora.O parque também tem papel fundamental na conservação ambiental, na proteção dos recursos hídricos e na regulação do clima local. Sua gestão é feita pelo Instituto Estadual do Ambiente (INEA), que atua na conservação, pesquisa científica e incentivo ao turismo sustentável. A visitação é gratuita, e os visitantes são incentivados a seguir práticas de mínimo impacto e respeito à natureza.",
+      "infolocation": "O Parque Estadual dos Três Picos está localizado na Região Serrana do Rio de Janeiro e pode ser acessado por diferentes municípios, como Teresópolis, Nova Friburgo, Cachoeiras de Macacu e Guapimirim. Um dos acessos mais conhecidos é pela localidade de Vale dos Deuses, em Nova Friburgo, e também pela região de Salinas, que dá acesso às trilhas para os picos. \n\nÉ possível chegar de carro, por estradas como a RJ-116 (para Nova Friburgo e Cachoeiras de Macacu) ou a BR-495 (ligando Teresópolis a Friburgo). Há trechos de estrada de terra em algumas entradas, portanto recomenda-se atenção redobrada ou veículos com maior resistência em períodos de chuva. Para quem vem de ônibus, empresas que operam na região serrana partem do Rio de Janeiro e de cidades próximas com destino a Nova Friburgo, Teresópolis e Cachoeiras de Macacu. De lá, é necessário transporte complementar até as entradas do parque.",
+      "hq": [
+        {
+          "name": "Sede Cachoeiras de Macacu",
+          "image": "/sede3picos1.jpg",
+          "address": "Endereço: Estr. do Jequitibá, 145 - Boca do Mato, Cachoeiras de Macacu - RJ, 28680-000",
+          "telephone": "(21) 2649-6847",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.3514609346907!2d-42.6081318!3d-22.4157937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9828dca389132b%3A0x93597612497fce8d!2sPETP%20-%20Parque%20Estadual%20dos%20Tr%C3%AAs%20Picos%20-%20N%C3%BAcleo%20Jequitib%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1778688311877!5m2!1spt-BR!2sbr"
+        },
+        {
+          "name": "Sede Teresópolis",
+          "image": "/sede3picos2.png",
+          "address": "Endereço: Estr. do Jequitibá, 145 - Boca do Mato, Cachoeiras de Macacu - RJ, 28680-000",
+          "telephone": "(21) 2649-6847",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59005.68696030063!2d-42.94906837343501!3d-22.43446638777221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%203%20picos%20teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1778688475945!5m2!1spt-BR!2sbr"
+        }
+      ],
+      "area_km2": 46,
+      "state": "Rio de Janeiro",
+      "images": [
+        "/pq3picos1.jpg",
+        "/pq3picos2.jpeg",
+        "/pq3picos.jpg",
+        "/pq3picos3.jpg"
+      ],
+      "features": [
+        "picos",
+        "escalada",
+        "trilhas",
+        "observação de aves"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "parque-natural-municipal-montanhas-de-teresopolis",
+      "name": "Parque Natural Municipal Montanhas de Teresópolis",
+      "shortName": "Montanhas de Teresópolis",
+      "description": "O Parque Natural Municipal Montanhas de Teresópolis é uma unidade de conservação localizada na área rural de Teresópolis, na Região Serrana do Rio de Janeiro. Com cerca de 4.400 hectares, o parque protege importantes remanescentes de Mata Atlântica e integra o Corredor Ecológico Central da Serra do Mar, sendo fundamental para a preservação da biodiversidade local e a conectividade entre outras áreas protegidas da região. Apesar de ser menor em extensão do que parques estaduais e nacionais vizinhos, o Montanhas de Teresópolis se destaca por suas paisagens impressionantes, formações rochosas marcantes e trilhas que revelam mirantes naturais e trilhas que revelam mirantes naturais e trilhas que revelam mirantes naturais e trilhas que revelam mirantes naturais.",
+      "infolocation": "O Parque Natural Municipal Montanhas de Teresópolis está localizado na zona rural do município de Teresópolis, a cerca de 90 km do Rio de Janeiro. O acesso principal ao parque é feito pelo bairro Santa Rita, com entrada sinalizada pela Estrada da Barragem, após o bairro de Albuquerque. É possível chegar de carro, com trechos asfaltados e uma curta parte em estrada de terra. Há estacionamento disponível na entrada do parque. \n\nPara quem vem de ônibus, existem linhas municipais que saem do centro de Teresópolis até o bairro de Santa Rita, porém é recomendável confirmar os horários com antecedência, pois o transporte na zona rural pode ser limitado.O parque é de fácil acesso para visitantes que desejam explorar trilhas, mirantes e a natureza preservada da Serra dos Órgãos, sem se afastar muito da área urbana.",
+      "hq": [
+        {
+          "name": "Sede Santa Rita",
+          "image": "/sedemontere1.jpg",
+          "address": "Endereço: Rodovia BR-116, Km 74 s/n - Santa Rita, Teresópolis - RJ",
+          "telephone": "(21) 2043-3626, ramal 423.",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.4699929740436!2d-42.9810966!3d-22.3358758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984e877df44e37%3A0x30a7fb46f41a337e!2sParque%20Municipal%20Montanhas%20de%20Teres%C3%B3polis%20-%20sede%20Santa%20Rita!5e0!3m2!1spt-BR!2sbr!4v1778688689625!5m2!1spt-BR!2sbr"
+        },
+        {
+          "name": "Sede Pedra da Tartaruga",
+          "image": "/sedemontere2.jpg",
+          "address": "Endereço: Serv. Pedro Mendes Silva Filho, 58, Granja Florestal",
+          "telephone": "(21) 2043-3626, ramal 424",
+          "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.4699929740436!2d-42.9810966!3d-22.3358758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984e877df44e37%3A0x30a7fb46f41a337e!2sParque%20Municipal%20Montanhas%20de%20Teres%C3%B3polis%20-%20sede%20Santa%20Rita!5e0!3m2!1spt-BR!2sbr!4v1778688689625!5m2!1spt-BR!2sbr"
+        }
+      ],
+      "area_km2": 17.5,
+      "state": "Rio de Janeiro",
+      "images": [
+        "/pqmontere2.jpg",
+        "/pqmontere.jpg",
+        "/pqmontere1.jpg",
+        "/pqmontere3.jpg"
+      ],
+      "features": [
+        "mata atlântica",
+        "mirantes",
+        "trilhas leves",
+        "espaço para picnic"
+      ]
+    }
+  ],
+  "trails": [
+    {
+      "id": 1,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Travessia Petrópolis x Teresópolis",
+      "slug": "travessia-petropolis-teresopolis",
+      "mainImage": "/trilhapettere.jpg",
+      "images": [
+        "/trilhapettere1.jpg",
+        "/trilhapettere2.jpg",
+        "/trilhapettere3.jpg",
+        "/trilhapettere4.jpg",
+        "/trilhapettere5.jpg",
+        "/trilhapettere6.jpg",
+        "/trilhapettere7.jpg",
+        "/trilhapettere8.jpg"
+      ],
+      "difficulty": "Difícil",
+      "duration": "2 a 3 dias",
+      "description": "Uma das trilhas de montanha mais famosas do Brasil. São cerca de 30 km ligando os municípios de Petrópolis e Teresópolis, com paisagens de tirar o fôlego, como o Castelos do Açu, Pedra do Sino e os impressionantes vales e cumes da serra. Ideal para praticantes experientes de trekking."
+    },
+    {
+      "id": 2,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha da Pedra do Sino",
+      "slug": "trilha-da-pedra-do-sino",
+      "mainImage": "/trilhapedrasino.jpg",
+      "images": [
+        "/trilhapedrasino1.jpg",
+        "/trilhapedrasino2.jpg",
+        "/trilhapedrasino3.jpg",
+        "/trilhapedrasino4.jpg",
+        "/trilhapedrasino5.jpg",
+        "/trilhapedrasino6.jpg",
+        "/trilhapedrasino7.jpg"
+      ],
+      "difficulty": "Difícil",
+      "duration": "6 a 10 horas",
+      "description": "Principal atração da parte de Teresópolis, é o ponto mais alto da serra (2.275 m). Do cume, é possível ter uma vista panorâmica espetacular da Baía de Guanabara, do Dedo de Deus e, em dias claros, até da cidade do Rio de Janeiro. A trilha é bem marcada e possui abrigo para pernoite."
+    },
+    {
+      "id": 3,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha do Dedo de Deus",
+      "slug": "trilha-do-dedo-de-deus",
+      "mainImage": "/trilhadedodeus2.jpg",
+      "images": [
+        "/trilhadedodeus1.jpg",
+        "/trilhadedodeus.jpg",
+        "/trilhadedodeus3.jpg",
+        "/trilhadedodeus4.jpg",
+        "/trilhadedodeus5.jpg",
+        "/trilhadedodeus6.jpg"
+      ],
+      "difficulty": "Difícil",
+      "duration": "8 a 12 horas",
+      "description": "Ícone do montanhismo brasileiro. Essa trilha é técnica e exige escalada, com uso de equipamentos adequados e experiência. Só é recomendada para montanhistas experientes acompanhados por guias."
+    },
+    {
+      "id": 4,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha do Morro do Açu",
+      "slug": "trilha-morro-do-acu",
+      "mainImage": "/trilhamorroacu.jpg",
+      "images": [
+        "/trilhamorroacu1.jpg",
+        "/trilhamorroacu2.jpg",
+        "/trilhamorroacu3.jpg",
+        "/trilhamorroacu4.jpg"
+      ],
+      "difficulty": "Difícil",
+      "duration": "6 a 8 horas",
+      "description": "Início da travessia Petrópolis x Teresópolis. Leva ao cume do Morro do Açu (2.232 m), com abrigo para pernoite e vista ampla para formações como o Dedo de Deus e os Três Picos."
+    },
+    {
+      "id": 5,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha Cartão Postal",
+      "slug": "trilha-cartao-postal",
+      "mainImage": "/trilhacartaopostal.jpg",
+      "images": [
+        "/trilhacartaopostal1.jpg",
+        "/trilhacartaopostal2.jpg",
+        "/trilhacartaopostal3.jpg"
+      ],
+      "difficulty": "Fácil",
+      "duration": "1h30 a 2h",
+      "description": "Trilha curta e ideal para iniciantes, com vista frontal do Dedo de Deus. Boa para quem quer contato com a natureza sem grande esforço."
+    },
+    {
+      "id": 6,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha Suspensa",
+      "slug": "trilha-suspensa",
+      "mainImage": "/trilhasuspensa.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "30 minutos",
+      "description": "Trilha plana com passarelas de madeira, acessível para famílias e pessoas com mobilidade reduzida. Possui sinalização interpretativa da fauna e flora."
+    },
+    {
+      "id": 7,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha do Vale da Boa Esperança",
+      "slug": "trilha-do-vale-da-boa-esperanca",
+      "mainImage": "/trilhavaleboaesperanca.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "2 a 3 horas",
+      "description": "Leva a piscinas naturais e cachoeiras. Percurso com leve subida e vários pontos agradáveis para descanso."
+    },
+    {
+      "id": 8,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Trilha da Barragem",
+      "slug": "trilha-da-barragem",
+      "mainImage": "/trilhabarragem.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "1 hora",
+      "description": "Trilha curta até a antiga barragem da região. Caminho arborizado, bom para observação de aves e passeio tranquilo."
+    },
+    {
+      "id": 9,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha até o Vale dos Deuses",
+      "slug": "trilha-vale-dos-deuses",
+      "mainImage": "/trilhavaledeuses.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "1 hora",
+      "description": "Início no Portal do parque pela RJ-130. Leva ao coração do núcleo Três Picos, no Vale dos Deuses, a cerca de 1.700 m de altitude, com área de camping gratuita e excelente ponto de apoio para acessar outras trilhas da região."
+    },
+    {
+      "id": 10,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Travessia Pico Menor e Médio",
+      "slug": "travessia-pico-menor-medio",
+      "mainImage": "/trilhamenormedio.jpg",
+      "images": [],
+      "difficulty": "Difícil",
+      "duration": "3 a 5 horas",
+      "description": "Percurso técnico passando pelo Vale do Toledo e levando aos cumes do Pico Menor e Pico Médio. Inclui lajes, trechos íngremes, escalaminhada e exposição, recomendado apenas para trilheiros experientes com equipamento."
+    },
+    {
+      "id": 11,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha Cabeça de Dragão",
+      "slug": "trilha-cabeca-de-dragao",
+      "mainImage": "/trilhacabecadragao.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "2 horas",
+      "description": "Parte do acampamento central e sobe até a formação rochosa da Cabeça de Dragão, a 2.082 m. Vista panorâmica para Três Picos, Capacete, Vale dos Deuses e Caixa de Fósforo."
+    },
+    {
+      "id": 12,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha da Caixa de Fósforo",
+      "slug": "trilha-caixa-de-fosforo",
+      "mainImage": "/trilhacaixafosforo.webp",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "2 horas",
+      "description": "Saindo do Vale dos Deuses, atravessa baixadas e córregos até a base do bloco rochoso conhecido como Caixa de Fósforo. A subida final é curta e inclinada, recompensada por um mirante amplo."
+    },
+    {
+      "id": 13,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha Mirante do Capacete",
+      "slug": "trilha-mirante-capacete",
+      "mainImage": "/trilhacapacete.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "1h30",
+      "description": "Conecta ao Mirante Rodolfo Chermond na região da Montanha do Capacete. Caminho curto com aclives suaves e vistas amplas do Vale dos Três Picos e Serra da Caledônia."
+    },
+    {
+      "id": 14,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha Dois Bicos",
+      "slug": "trilha-dois-bicos",
+      "mainImage": "/trilhadoisbicos.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "3 horas",
+      "description": "Percurso pelo Vale das Sebastianas, passando por pastagens e mata até os cumes do Bico Maior e Bico Menor. Excelente para observar a linha de cristas e formações da região."
+    },
+    {
+      "id": 15,
+      "parkId": 2,
+      "park": " Três Picos",
+      "name": "Trilha Caminho das Centenárias",
+      "slug": "trilha-caminho-das-centenarias",
+      "mainImage": "/trilhacaminhocent.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "50 minutos",
+      "description": "Trilha curta no Vale da Revolta, inaugurada em 2024. Passa por árvores centenárias, córregos e áreas sombreadas. Boa opção para iniciantes, famílias e contemplação."
+    },
+    {
+      "id": 16,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha da Pedra da Tartaruga",
+      "slug": "trilha-pedra-tartaruga",
+      "mainImage": "/pedratartaruga.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "25 minutos",
+      "lenght": "0,65 km",
+      "description": "Uma das trilhas mais clássicas e acessíveis da cidade. O cume oferece uma vista incrível de 360 graus para a Serra dos Órgãos e conta com área estruturada para camping."
+    },
+    {
+      "id": 17,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha da Pedra do Camelo",
+      "slug": "trilha-pedra-camelo",
+      "mainImage": "/pedracamelo.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "45 minutos",
+      "lenght": "1,1 km",
+      "description": "Uma extensão a partir da bifurcação da Tartaruga. Possui trechos mais íngremes sob a mata e leva até a base da imponente rocha que imita a silhueta de um camelo."
+    },
+    {
+      "id": 18,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha Vidoq Casas (Mirante da Tartaruga)",
+      "slug": "trilha-vidoq-casas",
+      "mainImage": "/mirantetartaruga.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "35 minutos",
+      "lenght": "1,2 km",
+      "description": "Caminhada tranquila que passa por passarelas de madeira suspensas na mata, levando a um mirante estratégico focado na observação lateral da icônica Pedra da Tartaruga."
+    },
+    {
+      "id": 19,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha da Pedra Alpina",
+      "slug": "trilha-pedra-alpina",
+      "mainImage": "/pedraalpina.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "60 minutos",
+      "lenght": "1,2 km",
+      "description": "Percurso menos frequentado e altamente cenográfico. Ideal para quem busca tranquilidade e isolamento em meio à Mata Atlântica preservada do parque."
+    },
+    {
+      "id": 20,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha da Pedra do Triunfo",
+      "slug": "trilha-pedra-triunfo",
+      "mainImage": "/pedratriunfo.jpg",
+      "images": [],
+      "difficulty": "Difícil",
+      "duration": "90 minutos",
+      "lenght": "2,0 km",
+      "description": "Trilha fechada com trechos rochosos expostos e subidas acentuadas. Exige maior atenção no terreno, mas recompensa com uma vista selvagem das florestas da região."
+    },
+    {
+      "id": 21,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Trilha do Núcleo Santa Rita",
+      "slug": "trilha-nucleo-santa-rita",
+      "mainImage": "/santaritapark.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "30 minutos",
+      "lenght": "0,8 km",
+      "description": "Trilha interpretativa plana voltada para educação ambientação e contemplação da biodiversidade, localizada na área de recuperação pós-desastre do município."
+    }
+  ],
+  "waterfalls": [
+    {
+      "id": 1,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Poço dos Primatas",
+      "slug": "poco-dos-primatas",
+      "mainImage": "/poçoprimatas.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "50 minutos",
+      "lenght": "1,2 km",
+      "description": "Cachoeira acessível com caminho tranquilo. Ideal para famílias e iniciantes."
+    },
+    {
+      "id": 2,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Cachoeira Véu da Noiva",
+      "slug": "cachoeira-veu-da-noiva",
+      "mainImage": "/poçoveunoiva.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "50 minutos",
+      "lenght": "1,2 km",
+      "description": "Cachoeira acessível com caminho tranquilo. Ideal para famílias e iniciantes."
+    },
+    {
+      "id": 3,
+      "parkId": 1,
+      "park": "Serra dos Órgãos",
+      "name": "Cachoeira das Andorinhas",
+      "slug": "cachoeira-andorinhas",
+      "mainImage": "/poçoandorinhas.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "50 minutos",
+      "lenght": "1,2 km",
+      "description": "Cachoeira acessível com caminho tranquilo. Ideal para famílias e iniciantes."
+    },
+    {
+      "id": 4,
+      "parkId": 2,
+      "park": "Três Picos",
+      "name": "Cachoeira dos Frades",
+      "slug": "cachoeira-frades",
+      "mainImage": "/cachoeirafrades.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "05 minutos",
+      "lenght": "0,1 km",
+      "description": "Uma das mais famosas da região de Teresópolis, com uma queda imponente de 10 metros e um poço perfeito e amplo para banho. O acesso é imediato a partir da estrada de terra."
+    },
+    {
+      "id": 5,
+      "parkId": 2,
+      "park": "Três Picos",
+      "name": "Cachoeira Sete Quedas",
+      "slug": "cachoeira-sete-quedas",
+      "mainImage": "/setequedas.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "60 minutos",
+      "lenght": "1,5 km",
+      "description": "Localizada no núcleo de Cachoeiras de Macacu, possui uma queda de 60 metros ótima para visualização e cascading. A trilha passa por outros poços menores e agradáveis antes da queda principal."
+    },
+    {
+      "id": 6,
+      "parkId": 2,
+      "park": "Três Picos",
+      "name": "Cachoeira da Macumba",
+      "slug": "cachoeira-macumba",
+      "mainImage": "/cachoeiramacumba.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "10 minutos",
+      "lenght": "0,3 km",
+      "description": "Situada na serra que liga Teresópolis a Petrópolis, conta com duas quedas d'água volumosas e poços profundos ideais para nados e mergulhos. Trilha rápida e muito bem marcada."
+    },
+    {
+      "id": 7,
+      "parkId": 2,
+      "park": "Três Picos",
+      "name": "Cachoeira da Furna da Onça",
+      "slug": "cachoeira-furna-onca",
+      "mainImage": "/furnaonca.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "35 minutos",
+      "lenght": "0,9 km",
+      "description": "Pequena queda d'água em Cachoeiras de Macacu que corre por uma linda fenda rochosa, formando uma espécie de gruta de pedra. Fica no mesmo caminho que leva à parte alta das Sete Quedas."
+    },
+    {
+      "id": 8,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Cachoeira dos Frades",
+      "slug": "cachoeira-dos-frades",
+      "mainImage": "/cachufrades.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "05 minutos",
+      "lenght": "0,1 km",
+      "description": "A queda d'água mais famosa do vale montanhoso de Teresópolis. Tem um poço muito amplo, águas claras e acesso rápido ao lado da estrada que corta as montanhas."
+    },
+    {
+      "id": 9,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Cachoeira da Macumba",
+      "slug": "cachoeira-macumba-tere",
+      "mainImage": "/macumbatere.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "10 minutos",
+      "lenght": "0,3 km",
+      "description": "Localizada na descida da serra rústica que conecta Teresópolis. Apresenta duas quedas d'água volumosas e ótimos poços fundos cercados por paredões rochosos."
+    },
+    {
+      "id": 10,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Poço dos Dois Irmãos",
+      "slug": "poco-dois-irmaos",
+      "mainImage": "/poco-irmaos.jpg",
+      "images": [],
+      "difficulty": "Fácil",
+      "duration": "15 minutos",
+      "lenght": "0,4 km",
+      "description": "Recanto de águas mansas e gélidas localizado nas encostas da serra. Perfeito para banhos relaxantes após caminhadas curtas pela vegetação."
+    },
+    {
+      "id": 11,
+      "parkId": 3,
+      "park": "Montanhas de Teresópolis",
+      "name": "Cachoeira do Vale das Sebastianas",
+      "slug": "cachoeira-sebastianas",
+      "mainImage": "/sebastianas.jpg",
+      "images": [],
+      "difficulty": "Moderado",
+      "duration": "40 minutos",
+      "lenght": "1,3 km",
+      "description": "Queda d'água escondida no vale rural de Teresópolis. O acesso é feito por propriedades e trilhas rústicas com visual direto para a formation dos Dois Bicos."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Renato Zanco",
+      "avatar": "/user.webp",
+      "email": "renatozanco@example.com",
+      "password": "senha123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jhon Doe",
+      "avatar": "/avatar.jpg",
+      "email": "john.doe@example.com",
+      "password": "senha321",
+      "role": "user"
+    }
+  ]
+}

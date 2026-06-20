@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo - Terê Verde</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Painel Terê Verde</h1>
+</header>
+<nav class="parques-nav" style="background: #ffffff; padding: 15px; display: flex; justify-content: space-around; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;">
+
+    <div style="display: flex; align-items: center; gap: 15px; margin-left: 20px;">
+        <span style="font-weight: bold; color: #555;">Visualizar Páginas Públicas:</span>
+        
+        <a href="/parques/parque-nacional-da-serra-dos-orgaos" target="_blank" style="background: #2e7d32; color: white; text-decoration: none; padding: 8px 15px; border-radius: 4px; margin: 0 5px; font-size: 14px; font-weight: bold;">
+            Serra dos Órgãos
+        </a>
+        
+        <a href="/parques/parque-estadual-dos-tres-picos" target="_blank" style="background: #0288d1; color: white; text-decoration: none; padding: 8px 15px; border-radius: 4px; margin: 0 5px; font-size: 14px; font-weight: bold;">
+            Três Picos
+        </a>
+        
+        <a href="/parques/parque-natural-municipal-montanhas-de-teresopolis" target="_blank" style="background: #ef6c00; color: white; text-decoration: none; padding: 8px 15px; border-radius: 4px; margin: 0 5px; font-size: 14px; font-weight: bold;">
+            Montanhas de Terê
+        </a>
+    </div>
+
+    <a href="/" style="background: #666; color: white; text-decoration: none; padding: 8px 15px; border-radius: 4px; font-size: 14px; font-weight: bold; transition: background 0.2s;">
+        ← Voltar para Início
+    </a>
+</nav>
+
+<div class="admin-container">
+    
+    <section class="form-section">
+        <h2>Gerenciar Locais</h2>
+        <form id="admin-form" onsubmit="salvarLocal(event)">
+            
+            <input type="text" id="nome" placeholder="Nome da Trilha ou Cachoeira" required>
+            
+            <input type="text" id="slug" placeholder="Slug da URL (ex: trilha-da-pedra-do-sino)" required>
+
+            <select id="parque" required>
+                <option value="" disabled selected>Selecione o Parque</option>
+                <option value="Serra dos Órgãos">Serra dos Órgãos</option>
+                <option value="Três Picos">Três Picos</option>
+                <option value="Montanhas de Terê">Montanhas de Terê</option>
+            </select>
+
+            <select id="categoria" required>
+                <option value="" disabled selected>Selecione a Categoria</option>
+                <option value="trilhas">Trilha</option>
+                <option value="cachoeiras">Cachoeira</option>
+            </select>
+
+            <select id="dificuldade" required>
+                <option value="Fácil">Fácil</option>
+                <option value="Moderado">Moderado</option>
+                <option value="Difícil">Difícil</option>
+            </select>
+
+            <input type="text" id="duracao" placeholder="Duração estimada (ex: 1h 30min, 45 min)" required>
+
+            <input type="text" id="imagem" placeholder="URL da imagem principal da trilha ou cachoeira">
+
+            <div id="imagem-preview-container" style="margin-top:8px; display:none;">
+                <img id="imagem-preview" src="" alt="Preview da imagem" style="max-width:200px; max-height:120px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.1);" />
+            </div>
+            <input type="text" id="imagens" placeholder="URLs adicionais separadas por vírgula">
+
+            <textarea id="descricao" rows="6" placeholder="Descrição completa do local" required></textarea>
+            
+            <div class="form-buttons" style="display: flex; gap: 10px; margin-top: 15px;">
+                <button type="submit" id="btn-submit" style="background-color: #2e7d32; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; flex: 1;">
+                    Salvar Local
+                </button>
+                <button type="button" id="btn-cancelar" onclick="cancelarEdicao()" style="display: none; background-color: #dc3545; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; flex: 1;">
+                    Cancelar Edição
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <section class="list-section">
+        
+        <div class="parque-bloco" style="margin-bottom: 40px;">
+            <h2 style="color: #2e7d32; border-bottom: 3px solid #2e7d32;">Parque Nacional da Serra dos Órgãos</h2>
+            <table>
+                <thead>
+                    <tr><th>Nome</th><th>Imagem</th><th>Tipo</th><th>Dificuldade</th><th>Duração</th><th>Ações</th></tr>
+                </thead>
+                <tbody id="tabela-serra-orgaos"></tbody>
+            </table>
+        </div>
+
+        <div class="parque-bloco" style="margin-bottom: 40px;">
+            <h2 style="color: #0288d1; border-bottom: 3px solid #0288d1;">Parque Estadual dos Três Picos</h2>
+            <table>
+                <thead>
+                    <tr><th>Nome</th><th>Imagem</th><th>Tipo</th><th>Dificuldade</th><th>Duração</th><th>Ações</th></tr>
+                </thead>
+                <tbody id="tabela-tres-picos"></tbody>
+            </table>
+        </div>
+
+        <div class="parque-bloco">
+            <h2 style="color: #ef6c00; border-bottom: 3px solid #ef6c00;">Parque Natural Municipal Montanhas de Teresópolis</h2>
+            <table>
+                <thead>
+                    <tr><th>Nome</th><th>Imagem</th><th>Tipo</th><th>Dificuldade</th><th>Duração</th><th>Ações</th></tr>
+                </thead>
+                <tbody id="tabela-montanhas-tere"></tbody>
+            </table>
+        </div>
+
+    </section>
+</div>
+
+<script src="/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.locationSection {
+  padding: 40px 0;
+  background:
+    linear-gradient(rgba(10, 16, 12, 0.8), rgba(10, 16, 12, 0.8)),
+    url("/fundoserra.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.infoLocation {
+  max-width: 920px;
+  margin: 0 auto 32px;
+  padding: 24px 32px;
+  color: #d7e7d3;
+  line-height: 1.75;
+  font-size: 1.03rem;
+  white-space: pre-line;
+  background: rgba(5, 10, 8, 0.7);
+  border: 1px solid #8aff8a;
+  border-radius: 24px;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.18);
+}
+
+.locationBlock {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.2fr) 1fr;
+  gap: 0;
+  margin: 0 auto 28px;
+  max-width: 1180px;
+  max-height: 350px;
+  background: rgba(6, 12, 9, 0.88);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #8aff8a;
+  box-shadow: 0 26px 90px rgba(0, 0, 0, 0.23);
+}
+
+.imageSide {
+  position: relative;
+  max-height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.photo {
+  display: none;
+}
+
+.imageOverlay {
+  position: relative;
+  width: 100%;
+  padding: 28px 24px 28px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.82) 90%
+  );
+}
+
+.imageOverlay h3 {
+  margin: 0;
+  color: #f7fdf5;
+  font-size: 1.9rem;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.mapWrap {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 18, 15, 0.94),
+    rgba(15, 21, 17, 0.98)
+  );
+}
+
+.phone {
+  margin: 0;
+  color: rgba(235, 245, 235, 0.92);
+  line-height: 1.7;
+  font-size: 0.98rem;
+}
+
+.phone strong {
+  color: #f8fafc;
+}
+.address {
+  margin: 0;
+  color: rgba(235, 245, 235, 0.92);
+  line-height: 1.7;
+  font-size: 0.98rem;
+}
+.map {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 900px) {
+  .locationBlock {
+    grid-template-columns: 1fr;
+  }
+
+  .map {
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 640px) {
+  .infoLocation {
+    margin: 0 16px 24px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .locationBlock {
+    border-radius: 20px;
+  }
+
+  .imageOverlay {
+    padding: 22px 18px 22px;
+  }
+
+  .mapWrap {
+    padding: 16px;
+  }
+}

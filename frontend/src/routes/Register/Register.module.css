@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginForm {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  min-width: 400px;
+  height: 70vh;
+  border-radius: 20px;
+}
+
+.title {
+  color: #009600;
+}
+
+.subtitle {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #009600;
+}
+
+.formGroup input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.eyeBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.loginBtn {
+  background: linear-gradient(to right, rgb(0, 184, 0), rgb(0, 150, 0));
+  border: none;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.loginBtn:hover {
+  filter: brightness(1.1);
+  transform: scale(1.03);
+}
+  
+.register {
+  color: #333;
+  margin-top: 20px;
+}
+
+.register a {
+  color: #009600;
+}
+
+.error {
+  color: red;
+}
+
+.inputError {
+  border: 1px solid red;
+}
+
+.brandBtn {
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.brandIcon {
+  color: #009600;
+  font-size: 1rem;
+}
+
+.brandText {
+  color: #009600;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}

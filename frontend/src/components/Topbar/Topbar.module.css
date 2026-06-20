@@ -1,0 +1,275 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  padding: 8px 30px;
+
+  background: rgba(18, 49, 23, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(130, 180, 120, 0.15);
+}
+
+.topbarlogo {
+  width: 150px;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35));
+}
+
+.searchNavItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 8px 14px;
+  color: #f2f7f2;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.searchNavItem.searchOpen {
+  position: static;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.searchIconButton {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(138, 255, 138, 0.3);
+  background: rgba(12, 170, 111, 0.15);
+  color: #8aff8a;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.searchIconButton:hover {
+  background: rgba(12, 170, 111, 0.35);
+  border-color: #8aff8a;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(138, 255, 138, 0.2);
+}
+
+.searchIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.searchContainer {
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 280px;
+  z-index: 1001;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid rgba(138, 255, 138, 0.3);
+  background: rgba(18, 49, 23, 0.95);
+  color: #fff;
+  outline: none;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.searchInput::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.suggestionsList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(18, 49, 23, 0.95);
+  border: 1px solid rgba(138, 255, 138, 0.3);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 1002;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.searchError {
+  width: 100%;
+  color: #ff9b9b;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+  padding: 4px 0;
+  border-bottom: 3px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.navLink.active {
+  color: #8aff8a;
+  border-bottom-color: #8aff8a;
+  font-weight: 700;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  color: #f2f7f2;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.navItem:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .searchInput {
+    width: 140px;
+  }
+}
+
+.suggestionItem {
+  border-bottom: 1px solid rgba(138, 255, 138, 0.1);
+}
+
+.suggestionItem:last-child {
+  border-bottom: none;
+}
+
+.suggestionButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  background: transparent;
+  border: none;
+  color: #f2f7f2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.suggestionButton:hover {
+  background: rgba(138, 255, 138, 0.1);
+  padding-left: 14px;
+}
+
+.suggestionIcon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.suggestionName {
+  flex: 1;
+  font-weight: 600;
+  color: #8aff8a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestionPark {
+  font-size: 0.75rem;
+  color: rgba(242, 247, 242, 0.6);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .searchNavItem {
+    padding: 6px 10px;
+  }
+
+  .searchInput {
+    width: 120px;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 15px;
+  }
+
+  .navList {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .searchNavItem {
+    order: -1;
+    width: 100%;
+    justify-content: center;
+    padding: 8px 0;
+    margin-bottom: 8px;
+  }
+
+  .searchForm {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .searchInput {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .searchButton {
+    width: 42px;
+  }
+}

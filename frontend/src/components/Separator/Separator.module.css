@@ -1,0 +1,15 @@
+.separator {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #009600;
+}
+
+.title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 40px;
+}

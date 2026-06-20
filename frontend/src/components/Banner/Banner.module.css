@@ -1,0 +1,38 @@
+.bannerHome {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.651)),
+    url(/fundoserra.jpeg);
+
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.title {
+  color: #8aff8abe;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  word-spacing: 15px;
+  letter-spacing: 3px;
+}
+
+.description {
+  color: #e0e0e0;
+  font-weight: bold;
+}

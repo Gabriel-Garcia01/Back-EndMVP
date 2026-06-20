@@ -1,0 +1,29 @@
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.image {
+  width: 32%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.03);
+}
+
+.navigate {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  color: #009600;
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+  gap: 30px;
+}
+

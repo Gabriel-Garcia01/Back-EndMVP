@@ -1,0 +1,31 @@
+.parkContainer {
+  /* margin: 20px 40px; */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 70px;
+  
+}
+
+.parkName {
+  color: #8aff8a;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.parkDescription {
+  color: #f3fff1;
+  white-space: pre-line;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.parkTag {
+  background-color: #8aff8a4f;
+  border: 1px solid #8aff8aad;
+  width: 100px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}

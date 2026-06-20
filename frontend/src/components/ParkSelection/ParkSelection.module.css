@@ -1,0 +1,55 @@
+
+.parkLink {
+  flex: 1;
+  display: block;
+  text-decoration: none;
+}
+
+.parkList {
+  display: flex;
+}
+
+.parkItem {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.parkItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.parkName {
+  color: #8aff8a;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 20px;
+  transform: translateY(15px);
+  transition: 0.4s ease;
+}
+
+.parkItem:hover .overlay {
+  opacity: 1;
+}
+
+.parkItem:hover .parkName {
+  transform: translateY(0);
+}

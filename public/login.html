@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Terê Verde</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body class="login-body">
+
+    <div class="login-logo-topo">
+        <img src="/imagens/logotereverde.png" alt="Terê Verde">
+    </div>
+
+    <div class="login-card">
+        <h2>Login da Área Administrativa</h2>
+        
+        <form id="login-form" onsubmit="realizarLogin(event)">
+            <div class="input-group">
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+            </div>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="mensagem-erro"></p>
+    </div>
+
+<script src="/login.js"></script>
+</body>
+</html>
