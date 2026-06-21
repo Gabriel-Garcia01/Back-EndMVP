@@ -36,7 +36,7 @@ npm start # ou node serve.js
 
 ###Autores
 
-Julío
-Gabriel Nascimento
-Gabriel Garcia
+Julío n/
+Gabriel Nascimento n/
+Gabriel Garcia n/
 Renato Zanco
