@@ -31,4 +31,4 @@ npm install  # ou pip install -r requirements.txt
 
 ## Iniciar o servidor
 
-npm start
+npm start ou node serve.js
