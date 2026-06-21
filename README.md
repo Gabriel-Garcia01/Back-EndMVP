@@ -31,4 +31,12 @@ npm install  # ou pip install -r requirements.txt
 
 ## Iniciar o servidor
 
-npm start ou node serve.js
+npm start # ou node serve.js
+
+
+###Autores
+
+Julío
+Gabriel Nascimento
+Gabriel Garcia
+Renato Zanco
